@@ -9,19 +9,11 @@
 		<link rel="stylesheet" href="css/_header.css">
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/inicio.css">
-		<link rel="stylesheet" href="css/_mediasCabecera.css">
 		<link rel="stylesheet" href="css/font-awesome.css">
 		<link rel="stylesheet" href="css/mediasFooter.css">
 	</head>
 	<body>
-		<!--<div class="container">
-			<div class="row">
-				<div class="section-index">
-					<img class="pic-1" src="/express/imagenes/womens-new-arrivals.jpg">
-					<img class="pic-2" src="/express/imagenes/womens-maxi-dresses.jpg">
-				</div>					
-			</div>
-		</div>-->
+		<?php include("header.html")?>
 		<?php include("footer.html")?>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
