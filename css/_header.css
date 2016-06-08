@@ -86,3 +86,21 @@
     font-size: 12px;
     margin-top: -10px;
 }
+.show-menu-nav{
+	display: inline-block;
+	position: relative;
+ }
+ .navbar-dropdown-woman{
+	display:none;
+	style:none;
+	position: fixed !important;
+    width:65%;
+	height:65%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #fff;
+	white-space: normal;
+	z-index:1;
+ }
+ .show-menu-nav:hover .navbar-dropdown-woman{
+	display:block; 
+ }
