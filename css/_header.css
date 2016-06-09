@@ -90,17 +90,26 @@
 	display: inline-block;
 	position: relative;
  }
- .navbar-dropdown-woman{
+ .navbar-dropdown-menu{
 	display:none;
 	style:none;
 	position: fixed !important;
     width:65%;
-	height:65%;
+	height:100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: #fff;
 	white-space: normal;
 	z-index:1;
+	padding-left:15px;
+	padding-right:15px;
  }
- .show-menu-nav:hover .navbar-dropdown-woman{
+ .show-menu-nav:hover .navbar-dropdown-menu{
 	display:block; 
+ }
+ .menu-featured{
+	padding-left:0px;
+ }
+ .container-menu-list{
+	padding-left:0px;
+	padding-right:0px;
  }
