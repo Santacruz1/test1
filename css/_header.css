@@ -20,11 +20,13 @@
 .container {
     width: 97% !important;
 }
-
-
-
-
-
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
 .navbar-container{
 	position: relative;
 	/* min-height: 73px; */
@@ -43,7 +45,7 @@
 	width:200px;
 }
 .div-navbar-header-menu{
-	margin: 0px 0px;
+	margin: 0px 0px 0px -10px;
 	float: left;
 }
 .navbar-header-menu{
@@ -61,7 +63,8 @@
 	text-decoration:none;
 	color:#FFF;
 	text-align: center;
-	vertical-align:center;
+	    font-weight: bolder;
+	/* vertical-align:center; */
 }
 .breadcrumb {
   padding: 8px 15px;
@@ -115,26 +118,6 @@
     font-size: 12px;
     margin-top: -10px;
 }
-.show-menu-nav{
-	display: inline-block;
-	position: relative;
- }
- .navbar-dropdown-menu{
-	display:none;
-	style:none;
-	position: fixed !important;
-    width:65%;
-	height:100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: #fff;
-	white-space: normal;
-	z-index:1;
-	padding-left:15px;
-	padding-right:15px;
- }
- .show-menu-nav:hover .navbar-dropdown-menu{
-	display:block; 
- }
  .menu-featured{
 	padding-left:0px;
  }
@@ -142,3 +125,29 @@
 	padding-left:0px;
 	padding-right:0px;
  }
+
+ .tooltipConten {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltipConten .tooltiptext {
+    visibility: hidden;
+    width: 900px;
+    height: 800px;
+    color: #black;
+    text-align: center;
+    border-radius: 6px;
+    border-color: black;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltipConten:hover .tooltiptext {
+    visibility: visible;
+    background-color: white;
+}

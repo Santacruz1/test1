@@ -19,7 +19,7 @@
 
 				<div class="container-promo-secondary">
 					<ul class="navbar-header-menu breadcrumb">
-						<li class="headerlogincomponent"><img src=""></li>
+						<li class="headerlogincomponent tooltipConten"><img src="" class="tooltiptext">Hello</li>
 						<li class="headerlogincomponent">Sign Out</i>
 						<li class="headerlogincomponent">Sign In</li>
 					</ul>	
@@ -29,10 +29,11 @@
 
 			<div class="div-navbar-header-menu col-md-7">
 				<ul class="navbar-header-menu breadcrumb">
-					<li id="li-women" class="show-menu-nav">
+					<li id="li-women" class="tooltipConten">
+						
 						<a href="">WOMEN</a>
 						
-						<div class="navbar-dropdown-menu horizontal-form">
+						<div class="tooltiptext horizontal-form">
 							<div class="vertical-form col-md-2 container-menu-list">
 									<h6>FEATURED</h6>
 								<hr>
@@ -152,3 +153,11 @@
 		</div>
 	</nav>
 </header>
+
+
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
