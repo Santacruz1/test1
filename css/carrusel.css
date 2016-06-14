@@ -1,0 +1,7 @@
+.item.active,
+        .item.active + .item,
+        .item.active + .item  + .item {
+           width: 33.3%;
+           display: block;
+           float:left;
+        }  

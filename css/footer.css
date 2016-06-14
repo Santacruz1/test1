@@ -1,7 +1,11 @@
 li{
 	list-style-type: none;
+	color:#8a8a8a;
 }
-.container-footer{
+li>a{
+	color:#8a8a8a;
+}
+.container-footer{	
 	padding-right: 45px;
 	padding-left: 45px;
 	padding-bottom:25px;
@@ -142,6 +146,9 @@ li{
 	color:#8a8a8a;
 	font-size:1.2rem;
 }	
+.footer-express .link-locator>a{
+	color:#8a8a8a;
+}
 .footer-express .link-locator>a:hover{
 	color:#8a8a8a;
 }
