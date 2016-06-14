@@ -1,7 +1,42 @@
-.item.active,
-        .item.active + .item,
-        .item.active + .item  + .item {
-           width: 33.3%;
-           display: block;
-           float:left;
-        }  
+.item.active, 
+.item.active + .item, 
+.item.active + .item + .item , 
+.item.active + .item + .item + .item , 
+.item.active + .item + .item + .item + .item {
+    width: 19%;
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+
+.carousel-control.left {
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+	background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+	background-repeat: repeat-x;
+	margin: auto;
+	width: 30px;
+}
+
+
+.carousel-control.right {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+    margin: auto;
+    width: 30px;
+}
+
+
+@media screen and (min-width: 768px)
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: 0px;
+    opacity: .5;
+    background: black;
+    height: 35px;
+}
