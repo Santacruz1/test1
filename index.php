@@ -13,6 +13,7 @@
 	<script
 	src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.1/holder.min.js"></script>
 
+	<link rel="stylesheet" type="text/css" href="./css/_header.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/custom_css.css"
 	media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/footer.css"
@@ -21,6 +22,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/carrusel.css" media="screen" />
 </head>
 <body>
+	<?php include("header.html")?>
 	<!-- Inicia el contenido del home -->
 	<div class="container-element section-component">
 		<div class="row layout-element-1">
@@ -116,6 +118,16 @@
 						src="/test1/imagenes/mens-socks-2.jpg">
 						<div class="footer-title">
 							<span class="span-link"> men's socks <span
+								class="glyphicon glyphicon-play size"></span>
+							</span>
+						</div>
+					</a>
+				</div>
+				<div class="col col-accessory">
+					<a href=""> <img class="img-accessory"
+						src="/test1/imagenes/mens-underwear.jpg">
+						<div class="footer-title">
+							<span class="span-link"> men's underwear <span
 								class="glyphicon glyphicon-play size"></span>
 							</span>
 						</div>
