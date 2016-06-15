@@ -10,9 +10,7 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script
-	src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.1/holder.min.js"></script>
-
+	
 	<link rel="stylesheet" type="text/css" href="./css/_header.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/custom_css.css"
 	media="screen" />
@@ -20,9 +18,15 @@
 	media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/mediasFooter.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/carrusel.css" media="screen" />
+
+	<script>
+	$(document).ready(function(){
+	        $("#myCarousel").carousel("cycle");
+	});
+	</script>
+
 </head>
 <body>
-	<?php include("header.html")?>
 	<!-- Inicia el contenido del home -->
 	<div class="container-element section-component">
 		<div class="row layout-element-1">
@@ -143,18 +147,17 @@
 					<span>#EXPRESSLIFE</span>
 				</h3>
 			</div>
-			<div id="carousel-example-generic" class="carousel slide"
-			data-ride="carousel" style="max-width: 1277px;">
+			<div id="carouse-express" class="carousel slide" data-ride="carousel">
 				<!-- Indicators 
 				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0"
+					<li data-target="#carouse-express" data-slide-to="0"
 						class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					<li data-target="#carouse-express" data-slide-to="1"></li>
+					<li data-target="#carouse-express" data-slide-to="2"></li>
 				</ol>
 			-->
 			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
+			<div id="myCarousel" class="carousel-inner" role="listbox">
 				<div class="item active">
 					<img src="/test1/imagenes/-dp6EiBvQEr6o_G7O1P8f5RtZPsNl0JzfvRBWB-oWj4=.jpg">
 				</div>
@@ -206,11 +209,11 @@
 			</div>
 
 			<!-- Controls -->
-			<a class="left carousel-control" href="#carousel-example-generic"
+			<a class="left carousel-control" href="#carouse-express"
 			role="button" data-slide="prev"> <span
 			class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
-		</a> <a class="right carousel-control" href="#carousel-example-generic"
+		</a> <a class="right carousel-control" href="#carouse-express"
 		role="button" data-slide="next"> <span
 		class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
