@@ -94,7 +94,7 @@
 			<span class="colors"></span>
 		</li>
 		<li class="description">
-			<a href="#">one shoulder belted asymmetrical maxi dress</a>
+			<a href="detalleProducto.php">one shoulder belted asymmetrical maxi dress</a>
 		</li>
 	</ul>
 </div>
