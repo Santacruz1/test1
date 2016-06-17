@@ -27,7 +27,7 @@
 
 </head>
 <body>
-<?php include("header.html")?>
+	<?php include("header.html")?>
 	<!-- Inicia el contenido del home -->
 	<div class="container-element section-component">
 		<div class="row layout-element-1">
