@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+}
+
+.product-info li.price{
+    border-bottom: 1px solid #d5d5d5;
+    margin-bottom: 6px;
+}
+
+.product-info li.description{
+     margin-bottom: 12px;
+}
+
+
+.product-info a {
+    color: #575757;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.product-info .colors {
+    float: right;
+    margin-right: 4px;
+    color: #b7b7b7;
+
+}
+
+.discount {
+    color: #bb2525;
+}
+
+.regular-price {
+    text-decoration: line-through;
+}
+
+.promo
+{
+	color: #575757 !important;
+    margin-bottom: 30px;
+}
+
+.navegacion li {
+    text-align: left;
+    display: inline-block;
+    float: none;
+    clear: both; 
+    border: none;
+    overflow: hidden;
+    font-size: 12px;
+    padding-top: 10px;
+    color: #b7b7b7;
+}
+
+a {
+    color: #b7b7b7;
+    text-decoration: none;
+}
