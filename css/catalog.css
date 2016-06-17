@@ -90,6 +90,6 @@ p a {
     border-radius: 50%;
 }
 
-.product-info{
-	
+ul.product-info {
+    height: 130px;
 }
