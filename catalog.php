@@ -28,6 +28,7 @@
       <![endif]--> 
    </head>
 <body>
+<?php include("header.html")?>
 <div class="container">
 <div class="row">
 	<div class="col-xs-12"> 
@@ -258,5 +259,6 @@
 	</div>
 </div>
 </div>
+<?php include("footer.html")?>
 </body>
 </html>
