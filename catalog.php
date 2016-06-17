@@ -10,18 +10,14 @@
       <!-- Bootstrap -->
       <link href="./css/catalog.css" rel="stylesheet">
       <link href="./imagenes/default/favicon.ico" rel="shortcut icon">
-	  <link rel="stylesheet"
-	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script
-	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="./css/_header.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="./css/custom_css.css"
-	media="screen" />
-	<link rel="stylesheet" type="text/css" href="./css/footer.css"
-	media="screen" />
+	<link rel="stylesheet" type="text/css" href="./css/custom_css.css"	media="screen" />
+	<link rel="stylesheet" type="text/css" href="./css/custom.css"	media="screen" />
+	<link rel="stylesheet" type="text/css" href="./css/footer.css"	media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/mediasFooter.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/carrusel.css" media="screen" />
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
