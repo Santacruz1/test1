@@ -4,17 +4,35 @@
 	<div class="col-xs-12"> 
 		<ul class="navegacion">
 			<li><a href="#">Mujeres</a></li>
-			/
-			<li><span>Mujeres</span></li>
+			<li>/</li>
+			<li><span style="color:black;">Supertendencias para mujeres</span></li>
 		</ul> 
 	</div>
 
 	<div class="col-md-6">
-		<h1>Womens New Arrivals</h1>
+		<h1>Supertendencias para mujeres</h1>
 	</div>
 
 	<div class="col-md-6">
+		<ul class="numbers header-nav-position">
+			<li><em>1</em></li>
+			<li><em>2</em></li>
+			<li><em>3</em></li>
+			<li><em>4</em></li>
+			<li><em>5</em></li>
+		</ul>
+	</div>
 
+	<div class="col-md-6">
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="dropsort" data-toggle="dropdown" area-extended="true">
+				Ordenar por
+				<span class="caret"></span>
+			</button>
+		</div>
+	</div>
+	<div class="col-md-6">
+		
 	</div>
 
 </div>
@@ -186,7 +204,17 @@
 
 </div> <!-- Cierre de class row-->
 
-
+<div id="description-seo" style="display:block";>
+	<div class="row">
+		<div class="col-xs-12">
+			<h2>NUEVAS TENDENCIAS PARA MUJERES</h2>
+				<p>
+					Si te consideras un seguidor de la moda,que siempre esta al tanto de las tendencias y los estilos mas nuevos. Nunca ha sido mas facil permanencer en la tendencia con nuestros productos recien llegados; Express ofrece las piezas mas nuevas, todo a tu alcance. Perfectamente en punto, tenemos de todo, desde
+					<a href="#">vestidos</a> hasta <a href="#">faldas</a>.Todos los elementos esenciales estan en nuestros productos recien llegados y esperando para que te los lleves a casa. Con volantes, aberturas laterales, con escotes en V, tapas recortadas, estaras en perfecta sincrnia con toda la moda que te gusta. Con todos los estilos que necesitas para verte de la mejor manera, tenemos todo lo que siempre has querido.
+				</p>
+		</div>
+	</div>
+</div>
  
 
 <?php include('./includes/footer.php');  ?> 
