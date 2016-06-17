@@ -32,20 +32,20 @@
 	<div class="container-element section-component">
 		<div class="row layout-element-1">
 			<img class="single-img"
-			src="/test1/imagenes/express-women-men-shorts-hp.jpg">
+			src="imagenes/express-women-men-shorts-hp.jpg">
 		</div>
 		<div class="row layout-element-1">
 			<div class="col-custom">
 				<img class="single-img"
-				src="/test1/imagenes/epress-women-skirts-hp.jpg">
+				src="imagenes/epress-women-skirts-hp.jpg">
 			</div>
 			<div class="col-center">
 				<img class="single-img"
-				src="/test1/imagenes/epress-men-casualshirts-hp.jpg">
+				src="imagenes/epress-men-casualshirts-hp.jpg">
 			</div>
 			<div class="col-custom">
 				<img class="single-img"
-				src="/test1/imagenes/epress-women-one-eleven-hp.jpg">
+				src="imagenes/epress-women-one-eleven-hp.jpg">
 			</div>
 		</div>
 		<div class="row layout-space">
@@ -60,7 +60,7 @@
 			<div class="form-accessory">
 				<div class="col col-accessory">
 					<a href=""> <img class="img-accessory"
-						src="/test1/imagenes/sandals-3.jpg">
+						src="imagenes/sandals-3.jpg">
 						<div class="footer-title">
 							<span class="span-link"> women's sandals <span
 								class="glyphicon glyphicon-play size"></span>
@@ -70,7 +70,7 @@
 				</div>
 				<div class="col col-accessory">
 					<a href=""> <img class="img-accessory"
-						src="/test1/imagenes/womens-acc.jpg">
+						src="imagenes/womens-acc.jpg">
 						<div class="footer-title">
 							<span class="span-link"> women's jewelry <span
 								class="glyphicon glyphicon-play size"></span>
@@ -80,7 +80,7 @@
 				</div>
 				<div class="col col-accessory">
 					<a href=""> <img class="img-accessory"
-						src="/test1/imagenes/patches-4.jpg">
+						src="imagenes/patches-4.jpg">
 						<div class="footer-title">
 							<span class="span-link"> women's pins & patches <span
 								class="glyphicon glyphicon-play size"></span>
@@ -90,7 +90,7 @@
 				</div>
 				<div class="col col-accessory">
 					<a href=""> <img class="img-accessory"
-						src="/test1/imagenes/womens-handbags.jpg">
+						src="imagenes/womens-handbags.jpg">
 						<div class="footer-title">
 							<span class="span-link"> women's handbags <span
 								class="glyphicon glyphicon-play size"></span>
@@ -100,7 +100,7 @@
 				</div>
 				<div class="col col-accessory">
 					<a href=""> <img class="img-accessory"
-						src="/test1/imagenes/mens-ties.jpg">
+						src="imagenes/mens-ties.jpg">
 						<div class="footer-title">
 							<span class="span-link"> men's ties <span
 								class="glyphicon glyphicon-play size"></span>
@@ -110,7 +110,7 @@
 				</div>
 				<div class="col col-accessory">
 					<a href=""> <img class="img-accessory"
-						src="/test1/imagenes/mens-flip-flops.jpg">
+						src="imagenes/mens-flip-flops.jpg">
 						<div class="footer-title">
 							<span class="span-link"> men's shoes <span
 								class="glyphicon glyphicon-play size"></span>
@@ -120,7 +120,7 @@
 				</div>
 				<div class="col col-accessory">
 					<a href=""> <img class="img-accessory"
-						src="/test1/imagenes/mens-socks-2.jpg">
+						src="imagenes/mens-socks-2.jpg">
 						<div class="footer-title">
 							<span class="span-link"> men's socks <span
 								class="glyphicon glyphicon-play size"></span>
@@ -130,7 +130,7 @@
 				</div>
 				<div class="col col-accessory">
 					<a href=""> <img class="img-accessory"
-						src="/test1/imagenes/mens-underwear.jpg">
+						src="imagenes/mens-underwear.jpg">
 						<div class="footer-title">
 							<span class="span-link"> men's underwear <span
 								class="glyphicon glyphicon-play size"></span>
@@ -143,7 +143,7 @@
 		<div class="row layout-element-1">
 			<div class="carrusel-header">
 				<h3>
-					<a href=""><img src="/test1/imagenes/Curalate-IG-Icon-Final.png"></a>
+					<a href=""><img src="imagenes/Curalate-IG-Icon-Final.png"></a>
 					<span>@EXPRESS</span>
 					<span>#EXPRESSLIFE</span>
 				</h3>
@@ -160,52 +160,52 @@
 			<!-- Wrapper for slides -->
 			<div id="myCarousel" class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="/test1/imagenes/-dp6EiBvQEr6o_G7O1P8f5RtZPsNl0JzfvRBWB-oWj4=.jpg">
+					<img src="imagenes/-dp6EiBvQEr6o_G7O1P8f5RtZPsNl0JzfvRBWB-oWj4=.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/b63ae149-f094-438c-8dc4-f023b4cf8497.jpg">
+					<img src="imagenes/b63ae149-f094-438c-8dc4-f023b4cf8497.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/1648ff1b-7eb4-4c2f-bffa-99d6b19f57c2.jpg">
+					<img src="imagenes/1648ff1b-7eb4-4c2f-bffa-99d6b19f57c2.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/30019ae1-8149-4c31-a991-ca6e80937b09.jpg">
+					<img src="imagenes/30019ae1-8149-4c31-a991-ca6e80937b09.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/GSWQyKN4KkdBkkxRPJm2Mi2p1HzYNP2KlXdcPUThgUI=.jpg">
+					<img src="imagenes/GSWQyKN4KkdBkkxRPJm2Mi2p1HzYNP2KlXdcPUThgUI=.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/a59525c5-20ca-4b84-8893-4dc493cc6338.jpg">
+					<img src="imagenes/a59525c5-20ca-4b84-8893-4dc493cc6338.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/ab0980bd-e3a7-44a5-b682-dce15f74abbd.jpg">
+					<img src="imagenes/ab0980bd-e3a7-44a5-b682-dce15f74abbd.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/5nK9AyKO0NbSWXONQCQdwtPqCkFNkjE3BN9W-QZenfE=.jpg">
+					<img src="imagenes/5nK9AyKO0NbSWXONQCQdwtPqCkFNkjE3BN9W-QZenfE=.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/20coXCFvz-BrT9TwwL8MEZ8rL4FsgzA3Tcj91YciV1A=.jpg">
+					<img src="imagenes/20coXCFvz-BrT9TwwL8MEZ8rL4FsgzA3Tcj91YciV1A=.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/5e6bf62e-d1a6-4b92-a4d0-c3be23a815db.jpg">
+					<img src="imagenes/5e6bf62e-d1a6-4b92-a4d0-c3be23a815db.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/_lLCBdE8N_uU9lAEXWRGGl9rAsve0nh8JK-1kL9PlFo=.jpg">
+					<img src="imagenes/_lLCBdE8N_uU9lAEXWRGGl9rAsve0nh8JK-1kL9PlFo=.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/0acbce26-c3fa-4e22-869e-6b344996aa2a.jpg">
+					<img src="imagenes/0acbce26-c3fa-4e22-869e-6b344996aa2a.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/b2S3Wdn7gjSEI74sndEUbcibTh4_4ZE1xL1mhoi30IM=.jpg">
+					<img src="imagenes/b2S3Wdn7gjSEI74sndEUbcibTh4_4ZE1xL1mhoi30IM=.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/2f7c5de3-d150-4225-8893-40f0a3e63d6f.jpg">
+					<img src="imagenes/2f7c5de3-d150-4225-8893-40f0a3e63d6f.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/7nh3NPAc5y1JGqbnvwkEKKRnC1cU-1-nv_mpU07_IMk=.jpg">
+					<img src="imagenes/7nh3NPAc5y1JGqbnvwkEKKRnC1cU-1-nv_mpU07_IMk=.jpg">
 				</div>
 				<div class="item">
-					<img src="/test1/imagenes/5yimCIH4i0sU-gCDcKDdthhQX5W3iWkKm0M3NwWeaSs=.jpg">
+					<img src="imagenes/5yimCIH4i0sU-gCDcKDdthhQX5W3iWkKm0M3NwWeaSs=.jpg">
 				</div>
 			</div>
 

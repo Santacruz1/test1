@@ -56,7 +56,7 @@ li>a{
     text-align: center;
 }
 .social .social-link {
-    background-image: url(/test1/imagenes/icon-sprite.png);
+    background-image: url(../imagenes/icon-sprite.png);
     background-repeat: no-repeat;
     display: inline-block;
     height: 26px;
@@ -153,7 +153,7 @@ li>a{
 	color:#8a8a8a;
 }
 .icon-pin{
-	background: url(/test1/imagenes/icon-sprite.png) no-repeat -432px -613px;
+	background: url(../imagenes/icon-sprite.png) no-repeat -432px -613px;
 	display: inline-block;
     height: 13px;
     width: 16px;

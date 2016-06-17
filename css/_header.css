@@ -164,7 +164,7 @@ body{
     position: relative;
 }
 .icon-search{
-	background-image: url(/test1/imagenes/icon-nav-sprite.png);
+	background-image: url(../imagenes/icon-nav-sprite.png);
 	background-repeat: no-repeat;
     background-size: 5.6rem 37.3rem;
     color: #FFF;
@@ -179,7 +179,7 @@ body{
 	background-position: -1.6rem -8.8rem;
 }
 .icon-shop-bag{
-	background-image: url(/test1/imagenes/icon-nav-sprite.png);
+	background-image: url(../imagenes/icon-nav-sprite.png);
 	background-repeat: no-repeat;
     background-size: 5.6rem 37.3rem;
     color: #000;

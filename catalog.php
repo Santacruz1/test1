@@ -85,7 +85,7 @@
 
 <div class="row">
 <div class="col-xs-5 col-sm-5 col-md-5">
-	<img class="img-responsive" src="imagenes/catalog/índice.jpg">
+	<img class="img-responsive" src="imagenes/catalog/indice.jpg">
 	
 	<ul class="product-info">
 		<li class="price">
