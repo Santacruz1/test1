@@ -8,11 +8,11 @@
       <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
       <title>Express</title>
       <!-- Bootstrap -->
-      <link href="./css/catalog.css" rel="stylesheet">
-      <link href="./imagenes/default/favicon.ico" rel="shortcut icon">
-	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="./css/catalog.css" rel="stylesheet">
+    <link href="./imagenes/default/favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="./css/_header.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="./css/custom_css.css"	media="screen" />
@@ -45,25 +45,38 @@
 	<div class="col-md-6">
 		<ul class="numbers header-nav-position">
 			<li><em>1</em></li>
-			<li><em>2</em></li>
-			<li><em>3</em></li>
-			<li><em>4</em></li>
-			<li><em>5</em></li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
 		</ul>
 	</div>
+</div>
 
+<div class="row">
 	<div class="col-md-6">
 		<div class="dropdown">
-			<button class="btn btn-default dropdown-toggle" type="button" id="dropsort" data-toggle="dropdown" area-extended="true">
 				Ordenar por
 				<span class="caret"></span>
-			</button>
+					<ul style="display:none;">
+						<li class="selected" data-value="relevance">
+							<a class="fliter" href="#">Destacado</a>
+						</li>
+					</ul>
 		</div>
 	</div>
 	<div class="col-md-6">
-		
+		<ul class="search-filters mobile-four">
+            <li class="search-option-all"><a href="javascript:void(0);" data-show-filter="all" class="show-filter">Todos los filtrados</a>
+            <span class="caret"></span>
+            </li>
+            <li class="browse-dropdown"><a href="javascript:void(0);" data-show-filter="type" class="show-filter">Tipo</a><span class="caret"></span></li>
+            <li class="browse-dropdown"><a href="javascript:void(0);" data-show-filter="size" class="show-filter">Tamaño</a><span class="caret"></span></li>
+            <li class="browse-dropdown"><a href="javascript:void(0);" data-show-filter="color" class="show-filter">Color</a><span class="caret"></span></li>
+            <li class="browse-dropdown"><a href="javascript:void(0);" data-show-filter="availability" class="show-filter">Disponibilidad</a>
+            <span class="caret"></span></li>
+        </ul>
 	</div>
-
 </div>
 
 
