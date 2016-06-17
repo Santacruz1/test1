@@ -1,0 +1,178 @@
+.container-body {
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-bottom: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f6f6f6;
+}
+
+.container-rigth {
+padding-left: 0px; 
+}
+
+.product-detail #express-view-images-list {
+    margin-top: 60px;
+}
+
+.product-detail #express-view-images-list, #product-detail .image-list {
+    overflow: hidden;
+    margin: 0;
+}
+
+.product-images-list .image-list {
+    margin: 60px 0px 0px -50px;
+    padding-top: 4px;
+}
+
+.product-images-list .image-list li {
+    margin-bottom: 10px;
+}
+
+.image-list li.selected a {
+    opacity: 0.2;
+}
+
+.product-images-list .image-list li a {
+    display: block;
+    width: 62px;
+    height: 104px;
+    border: 1px solid #E5E5E5;
+}
+
+
+
+.product-info {
+    padding: 20px 20px 10px;
+    margin: 0;
+}
+
+.product-detail-container {
+    float: right;
+}
+
+.breadcrumbs {
+text-align: left;
+}
+
+.breadcrumbs ul {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 17px;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.breadcrumbs ul li {
+    display: block;
+    display: inline;
+}
+
+.bread-crumb-link {
+text-decoration: underline;    
+}
+
+
+
+
+
+.name-product {
+    font-size: 2.143em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.rate-clothes {
+padding-left: 0px;
+}
+
+h4.sale span {
+    text-decoration: line-through;
+    color: black;
+}
+
+h4.sale {
+    color: red;
+}
+
+h4 em {
+    font-family: 'exp-regular';
+    font-size: 0.77em;
+    font-style: normal;
+    color: #575757;
+}
+
+fieldset {
+    margin: 10px 0 0 0;
+}
+
+label {
+    font-family: "exp-medium",Arial;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.select-title > a {
+    color: #6F6F6F;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+select {
+    padding: 6px;
+    float: left;
+    font-size: 1em;
+}
+
+.select-size > select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+select {
+    width: 100%;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+
+.panel-messages {
+    min-height: 40px;
+    padding: 5px 0;
+}
+
+span.textColor {
+    display: block;
+    padding-bottom: 8px;
+}
+
+.cta {
+    color: #FFFFFF;
+    padding: 10px 22px 14px;
+    text-transform: uppercase;
+    font-family: 'exp-bold',arial;
+    text-align: center;
+    line-height: 1.3em;
+    height: 38px;
+    border-radius: 0.4em;
+    border: none;
+    font-size: 1em;
+    -webkit-appearance: none;
+}
+
+#store-check-response-main strong, #store-check-response-main a {
+    color: #FFFFFF;
+    font-weight: 700;
+}
