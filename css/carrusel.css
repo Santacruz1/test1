@@ -3,7 +3,7 @@
 .item.active + .item + .item , 
 .item.active + .item + .item + .item , 
 .item.active + .item + .item + .item + .item {
-    width: 19.33%;
+    width: 19%;
     display: block;
     float: left;
     margin-right: 8px;
@@ -78,5 +78,5 @@
     margin: auto;
     width: 30px;
     height: 0px;
-    margin-right: 14px;
+    margin-right: 28px;
 }

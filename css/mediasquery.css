@@ -1,0 +1,67 @@
+/* ------------- MEDIAS QUERYS CONTAINER ROPA PARTE DE ABAJO ------------------------------------ */
+
+/* Escritorio pequeño o tablet*/
+@media (min-width: 768px){
+	.container-down .container-fluid .btn .calltoaction{
+    margin: 0;
+    min-height: 0;
+    padding: 0.8rem;
+    text-align: center;
+    background: blue;
+}
+}
+
+
+.imageContainer {
+	width: 100%!important;
+	padding-bottom: .9rem;
+
+}
+
+.calltoaction .btn:after {
+
+/*-----CODIGO QUE GENERA TRINAGULO DE ENLACE ROPA------*/
+	border-bottom: .6rem solid transparent;
+    border-top: .6rem solid transparent;
+    border-left: 0.6rem solid #000;
+    content: "";
+    display: inline-block;
+    height: 0;
+    left: 0;
+    position: relative;
+    top: 0rem;
+    vertical-align: middle;
+    width: 0
+
+}
+
+.enlace {
+    color: #000;
+}
+
+.container-image{
+	width: 108%;
+
+}
+
+.btn-mio{
+    color: #FFFFFF;
+    background-color: #080808;
+    float:right;
+}
+
+.btn-galeria{
+	float: right;
+}
+
+.curalate-header {
+    height: 100%;
+    overflow: hidden;
+    padding: 50px 0 36px;
+    text-align: center;
+}
+
+#curalate-header-buttons {
+    float: right;
+    padding: 5px 0 0;
+}
